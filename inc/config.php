@@ -6,6 +6,12 @@ $dbName = "page_app";
 $username = "root";
 $password = "";
 
+// Heroku
+$servername = "us-cdbr-east-03.cleardb.com";
+$dbName = "heroku_058feb507ebc8c6";
+$username = "be0860eb2c1765";
+$password = "4f0ffbe8";
+
   try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbName", $username, $password);
     // set the PDO error mode to exception
