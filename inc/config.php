@@ -1,11 +1,13 @@
 <?php
 
+# Development
 // localhost
 // $servername = "localhost";
 // $dbName = "page_app";
 // $username = "root";
 // $password = "";
 
+# Production
 // Heroku
 $servername = "us-cdbr-east-03.cleardb.com";
 $dbName = "heroku_058feb507ebc8c6";
