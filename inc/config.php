@@ -1,10 +1,10 @@
 <?php
 
 // localhost
-$servername = "localhost";
-$dbName = "page_app";
-$username = "root";
-$password = "";
+// $servername = "localhost";
+// $dbName = "page_app";
+// $username = "root";
+// $password = "";
 
 // Heroku
 $servername = "us-cdbr-east-03.cleardb.com";

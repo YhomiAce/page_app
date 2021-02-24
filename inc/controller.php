@@ -127,6 +127,14 @@
 		$result = $stmt->rowCount();
 		return $result;
 	}
+	function getAllVisitors($conn)
+	{
+		$query = "SELECT * FROM visitors";
+		$stmt = $conn->prepare($query);
+		$stmt->execute();
+		$result = $stmt->rowCount();
+		return $result;
+	}
 
 	function addVisitors($conn,$ip)
 	{

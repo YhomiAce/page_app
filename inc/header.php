@@ -32,10 +32,13 @@
         <a href="home.php" class="nav-link"> <i class="fas fa-newspaper"></i>&nbsp;Blog Post</a>
       </li>
       <li class="nav-item">
-        <a href="create.php" class="nav-link"> <i class="fas fa-blog"></i>&nbsp;New Post</a>
+        <a href="create.php" class="nav-link"> <i class="fas fa-blog"></i>&nbsp;Create Post</a>
       </li>
     </ul>
     <ul class="navbar-nav ml-auto nav-flex-icons">
+      <li class="nav-item">
+        <a class="nav-link" href="result.php">Results Page</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="signup.php">Register</a>
       </li>

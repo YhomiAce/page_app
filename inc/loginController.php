@@ -4,7 +4,7 @@
     require_once 'controller.php';
     
      // Login registered user
-     if(isset($_POST['action']) && isset($_POST['action']) === 'login'){
+     if(isset($_POST['action']) && isset($_POST['action']) == 'login'){
         $email = test_input($_POST['login-email']);
         $password = test_input($_POST['login-password']);
         // print_r($_POST);

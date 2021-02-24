@@ -4,7 +4,7 @@
     require_once 'controller.php';
 
      // register a User
-    if($_POST['action'] && $_POST['action'] === 'register'){
+    if($_POST['action'] && $_POST['action'] == 'register'){
         $name = test_input($_POST['reg-name']);
         $email = test_input($_POST['reg-email']);
         $pass = test_input($_POST['reg-pwd']);
